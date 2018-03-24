@@ -9,7 +9,7 @@ public class App {
 				"Spring-Module.xml");
 
 		HelloWorld obj = (HelloWorld) context.getBean("helloBean");
-		obj.setName("me in hell");
+		obj.setName("maggi");
 		obj.printHello();
 	}
 }
